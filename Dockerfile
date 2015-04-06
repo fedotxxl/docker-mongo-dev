@@ -1,5 +1,5 @@
 #to run this container use
-#docker run --net=host -t -v /job_on_current_machine/:/job fbelov/mongo-dev &
+#docker run -d -p 27017:27017 -t -v /job_on_current_machine/:/job fbelov/mongo-dev &
 
 #container params
 #/job/mongo/data - data
